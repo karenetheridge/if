@@ -24,3 +24,5 @@ Revision history for Perl extension if.
 
 0.0603          - Added example usage and SEE ALSO links to similar modules in
                   doc for if.pm (Neil Bowers)
+
+0.0604          - Note that works with 'no' besides 'use' (Karl Williamson)
