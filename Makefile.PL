@@ -8,4 +8,15 @@ WriteMakefile(
     ($] >= 5.007003 ? ('INSTALLDIRS'  => 'perl') : ()), # core since 5.7.3
     AUTHOR  => 'Ilya Zakharevich <ilyaz@cpan.org>',
     LICENSE => 'perl_5',
+
+    META_MERGE => {
+        'meta-spec' => { version => 2 },
+        dynamic_config => 0,
+        resources => {
+            repository => {  },
+            bugtracker => {
+                web => 'https://rt.perl.org',
+            },
+        },
+    },
 );
