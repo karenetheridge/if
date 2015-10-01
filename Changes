@@ -30,3 +30,6 @@ Revision history for Perl extension if.
 0.0605          - Better failure message for 'no if': It previously always
                   said 'use if', even if 'no if' was what was specified (Karl
                   Williamson)
+
+0.0606          2015-10-01
+                - add license information to pod
