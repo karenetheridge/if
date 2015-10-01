@@ -19,3 +19,5 @@ Revision history for Perl extension if.
 
 0.0601		The update of 0.0401 was lost during update to 0.05
 
+0.0602          - Convert if's test to Test::More (Nicholas Clark)
+                - Convert ` to '. (RT #36079, Jim Keenan)
