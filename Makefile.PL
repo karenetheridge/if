@@ -4,6 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'if',
     'VERSION_FROM' => 'if.pm', # finds $VERSION
+    ABSTRACT_FROM  => 'if.pm',
     ($] >= 5.007003 ? ('INSTALLDIRS'  => 'perl') : ()), # core since 5.7.3
     AUTHOR  => 'Ilya Zakharevich <ilyaz@cpan.org>',
     LICENSE => 'perl_5',
